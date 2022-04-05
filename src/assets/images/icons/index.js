@@ -21,3 +21,6 @@ const allIconsType = {
     wi_WeatherIcons: "react-icons/wi",
     cg_cssggIcons: "react-icons/cg"
 }
+
+export { CgMenuGridR } from "react-icons/cg";
+export { FaRegWindowClose } from "react-icons/fa";

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.contentMainBox {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+.contentMain {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    flex: 1;
+}

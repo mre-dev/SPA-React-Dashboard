@@ -9,7 +9,9 @@ export const Main = (props) => {
                 <Sidebar/>
                 <div className={Styles.contentMainBox}>
                     <Header/>
-                    {props.children}
+                    <div className={Styles.contentMain}>
+                        {props.children}
+                    </div>
                     <Footer/>
                 </div>
             </div>
