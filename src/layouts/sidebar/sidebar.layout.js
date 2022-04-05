@@ -2,7 +2,9 @@ import React from 'react';
 import Styles from './sidebar.module.css';
 
 export const Sidebar = (props) => {
-  return (
-    <section></section>
-  );
+    return (
+        <section>
+            <p>Sidebar</p>
+        </section>
+    );
 }
