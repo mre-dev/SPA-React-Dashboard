@@ -1,1 +1,22 @@
 @import url(Navigation-var.css);
+
+.borderedLink {
+    border-radius: 1rem;
+    border: 0.1rem solid var(--second-color);
+    color: var(--second-color) !important;
+    padding: 1rem 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s;
+    width: -webkit-fill-available;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.borderedLink:hover {
+    background-color: var(--third-color);
+    border-color: var(--third-color) !important;
+    color: var(--main-color) !important;
+    transition: 0.3s;
+    font-weight: 900;
+}
