@@ -70,8 +70,6 @@ export const Sidebar = (props) => {
                             <span>React Dashboard</span>
                             <br/>
                             <span>All Rights Reserved</span>
-                            <br/>
-                            <span>Mohammad Reza Ebrahimi</span>
                         </p>
                     </div>
                 </section>

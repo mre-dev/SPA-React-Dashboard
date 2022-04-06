@@ -8,6 +8,7 @@
     background-color: var(--main-color);
     color: var(--second-color);
     width: 25rem;
+    z-index: 1;
 }
 
 .sidebarHaeder {
@@ -51,7 +52,7 @@
     height: 2.5rem;
     display: none;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
 }
 
 .openMenuIcon svg {
@@ -70,6 +71,12 @@
         color: var(--main-color);
     }
 
+    .sidebar {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .sidebar {
         width: 100%;
     }
