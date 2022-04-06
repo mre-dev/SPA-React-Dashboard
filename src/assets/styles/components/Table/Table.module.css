@@ -1,1 +1,97 @@
 @import url(Table-var.css);
+
+.table {
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    margin: 0.5rem;
+    width: -webkit-fill-available;
+}
+
+.table th, .table td {
+    padding: 0.5rem;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+    white-space: nowrap;
+}
+
+.table th {
+    text-align: left;
+}
+
+.table .thead th {
+    background-color: #343a40;
+    width: 0rem;
+    text-align: center;
+    border: 0.1rem solid;
+}
+
+.table .tbody tr:hover {
+    background-color: #343a40;
+}
+
+.table .tbody td {
+    position: relative;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border: 0.1rem solid #343a40;
+}
+
+.table .tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: #343a408c;
+    z-index: -1;
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.pagination__number {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.pagination__select select {
+    height: 4rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    color: #333;
+    outline: none;
+    text-align: center;
+}
+
+.filterBox {
+    width: 100%;
+}
+
+.tableWrapper {
+    overflow: auto;
+    margin: 2.5rem;
+    border: 0.1rem solid var(--third-color);
+    border-radius: 0.5rem;
+    height: -webkit-fill-available;
+    max-height: calc(100vh - 35rem);
+}
+
+@media only screen and (max-width: 600px) {
+    .pagination {
+        transform: scale(0.8);
+    }
+}
