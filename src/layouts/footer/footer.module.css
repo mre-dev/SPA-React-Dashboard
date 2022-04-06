@@ -1,0 +1,12 @@
+.footer {
+    height: 5rem;
+    padding: 1.5rem;
+    width: -webkit-fill-available;
+    background-color: var(--third-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
