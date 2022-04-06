@@ -1,0 +1,38 @@
+.UsersPage__button {
+    margin: 2.5rem;
+}
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow-y: auto;
+    width: 60rem;
+    height: 60rem;
+    transform: translate(-50%, -50%);
+    max-width: -webkit-fill-available;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff91;
+    z-index: 10;
+}
+
+.Modal form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5rem;
+}
