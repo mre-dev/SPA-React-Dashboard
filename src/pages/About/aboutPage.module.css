@@ -1,0 +1,19 @@
+.aboutPage {
+    margin: 2.5rem;
+}
+
+.aboutPage p {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.aboutPage div {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
