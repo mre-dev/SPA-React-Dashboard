@@ -24,3 +24,4 @@ const allIconsType = {
 
 export { CgMenuGridR } from "react-icons/cg";
 export { FaRegWindowClose } from "react-icons/fa";
+export { BiUserCircle } from "react-icons/bi";
